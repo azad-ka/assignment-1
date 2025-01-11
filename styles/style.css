@@ -1,11 +1,10 @@
-
 .open-sans-normal {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}  
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 
 /* header-style */
 /* nav-style */
@@ -25,24 +24,28 @@ nav {
     justify-content: space-between;
     margin: 31px 160px;
 }
+
 .nav-title {
     font-weight: 700;
     font-size: 32px;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     padding: 80px 100px;
-    margin: 80px 0;
+    margin: 80px 160px;
     background: rgb(198, 228, 214);
     border-radius: 24px;
-    margin: 20px 160px;
+    
 }
-.banner-content{
+
+.banner-content {
     width: 622px;
     height: 326px;
+    margin: 0px 64px;
 }
+
 .btn-banner {
     background-color: rgb(0, 106, 80);
     border-radius: 8px;
@@ -52,23 +55,153 @@ nav {
     font-size: 18px;
     font-weight: 600;
 }
+
 .banner-head {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
     padding: 0px
 }
+
 .banner-title {
     color: rgb(14, 14, 14);
     font-size: 56px;
     font-weight: 700;
     padding: 0px;
 }
+
 .banner-picture {
     width: 474.03px;
     height: 400px;
+    margin: 0px 64px;
+    padding: 80px 60px;
 }
 
 /* main-style */
+
+.about-future {
+    width: 1280px;
+    height: 765px;
+    margin: 80px 160px;
+}
+
+.future-technology {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 1280px;
+    height: 325px;
+
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+    width: 1280px;
+    height: 48px;
+}
+
+.section-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    width: 1280px;
+    height: 48px;
+}
+
+.technology-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.technology-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.technology-one {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    gap: 24px;
+}
+
+.technology-two {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+    gap: 24px;
+}
+
+.technology-three {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+    gap: 24px;
+}
+
+.button-one {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    width: 122px;
+    height: 41px;
+    margin: 10px 0;
+}
+
+.button-two {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(9, 161, 92);
+    border: none;
+    width: 122px;
+    height: 41px;
+    margin: 10px 0;
+}
+
+.button-three {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: none;
+    width: 122px;
+    height: 41px;
+    margin: 10px 0;
+}
+.news{
+    margin: 80px 160px;
+    gap: 24px;
+}
+.news-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    width: 1280px;
+    height: 48px;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    width: 1280px;
+    height: 48px;
+}
+    
+
+
 
 /* footer-style */
