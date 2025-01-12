@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body class="open-sans-normal">
+<body class="fira-sans-regular">
     <header>
         <nav>
             <h3 class="nav-title">Bangladesh 2.0</h3>
@@ -62,30 +62,53 @@
         </section>
         <div class="news">
             <h3 class="news-title">Recent News</h3>
-            <p class="news-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting
-                inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital
-                transformation, and robust infrastructure, the country is set to become a global model of development.
-            </p>
+            <p class="news-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
+                cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in
+                renewable energy, digital transformation, and robust infrastructure, the country is set to become a
+                global model of development.</p>
         </div>
-            <div class="news-head">
-                <div>
-                    <h3>Bangladesh Launches New Satellite</h3>
-                    <img src="assets/al-jazeera.png" alt="channel logo">
-                    <p>Date: 05/01/2025 Time: 10.25 PM</p>
-                    <p>Not until the creation and maintenance of decent conditions of life for all people are recognized
-                        and accepted as a common obligation of all people and all countries—not until then shall we,
-                        with a certain degree of justification, be able to speak of humankind as civilized</p>
-                    <a href=""><button class="news-link">Read More</button></a>
-                </div>
-                <div class="satelite-image">
-                    <img src="assets/satelite.png" alt="satelite">
-                </div>
+        <div class="satelite">
+
+            <div><img class="satelite-img" src="assets/satelite.png" alt="image of a satelite"></div>
+
+            <div class="satelite-container">
+                <h4 class="satelite-title">Bangladesh Launches New Satellite</h4>
+                <img class="logo" src="assets/al-jazeera.png" alt="logo of tv"><br>
+                <time class="date-time" datetime="2025-01-05">Date: 05/01/2025 Time: 10.25 PM</time>
+                <p class="satelite-description">Not until the creation and maintenance of decent conditions of life for
+                    all people are recognized and accepted as a common obligation of all people and all countries—not
+                    until then shall we, with a certain degree of justification, be able to speak of humankind as
+                    civilized</p>
+                <a href=""><button class="satelite-btn">Read More</button></a>
             </div>
+        </div>
+        <section class="donate">
+            <div class="donate-container">
+                <h4 class="donate-title">Donate Today</h4>
+                <p class="donate-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
+                    cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives
+                    in renewable energy, digital transformation, and robust infrastructure.</p>
+            </div>
+            <div class="donate-money">
+                <div class="item">100 Taka</div>
+                <div class="item-one">200 Taka</div>
+                <div class="item">500 Taka</div>
+                <div class="item">1000 Taka</div>
+            </div>
+            <input class="amount" type="text" placeholder="other amount (Taka)"><br>
+            <input class="submit" type="submit" value="Donate Now">
         </section>
     </main>
 
     <footer>
-
+        <div class="footer">
+            <h3 class="footer-title">Bangladesh 2.0</h3>
+            <div class="footer-image">
+                <a href=""><img src="assets/facebook.png" alt="logo of Facebook"></a>
+                <a href=""><img src="assets/instagram.png" alt="logo of Instagram"></a>
+                <a href=""><img src="assets/x.png" alt="logo of Twitter"></a>
+            </div>   
+        </div>
     </footer>
 </body>
 

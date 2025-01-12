@@ -1,11 +1,8 @@
-.open-sans-normal {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
 }
-
 /* header-style */
 /* nav-style */
 
@@ -28,6 +25,7 @@ nav {
 .nav-title {
     font-weight: 700;
     font-size: 32px;
+
 }
 
 .banner {
@@ -37,7 +35,7 @@ nav {
     margin: 80px 160px;
     background: rgb(198, 228, 214);
     border-radius: 24px;
-    
+
 }
 
 .banner-content {
@@ -80,17 +78,16 @@ nav {
 /* main-style */
 
 .about-future {
-    width: 1280px;
-    height: 765px;
     margin: 80px 160px;
+    align-self: stretch;
 }
 
 .future-technology {
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 24px;
-    width: 1280px;
-    height: 325px;
+    padding: 0px;
 
 }
 
@@ -182,26 +179,157 @@ nav {
     height: 41px;
     margin: 10px 0;
 }
-.news{
-    margin: 80px 160px;
-    gap: 24px;
+
+.news {
+    margin: 0px 160px; 
+    align-self: stretch;
+    
+
 }
-.news-title{
+
+.news-title {
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
-    width: 1280px;
-    height: 48px;
+    padding: 0;
 }
-.news-description{
+
+.news-description {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
-    width: 1280px;
-    height: 48px;
+    padding: 0;
 }
+
+.satelite {
+    display: flex;
+    margin: 24px 80px;
+    align-self: stretch;
+    background: rgb(255, 255, 255);
+    border-radius: 24px;
+    padding: 48px;
     
+}
 
+.satelite-container {
+    margin: 0px 32px;
+    padding: 0px;
 
+}
+
+.satelite-img {
+    border-radius: 24px;
+    margin: 0px 32px;
+}
+
+.satelite-title {
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logo {
+    margin: 12px 0px;
+}
+
+.date-time {
+    margin: 12px 0px;
+}
+
+.satelite-description {
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.satelite-btn {
+    padding: 13px 26px;
+    margin: 32px 0px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.donate{
+    margin: 0 80px;
+    text-align: center;
+   
+}
+.donate-money{
+    display: flex;
+    margin: 0 80px;
+    text-align: center;
+}
+.donate-container{
+    margin: 32px 0px;
+}
+.donate-title{
+    margin: 24px 0px;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.donate-description{
+    margin: 0px 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.item{
+    padding: 40px;
+    margin: 0px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+.item-one{
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    margin: 0px 24px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+.amount{
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    margin: 32px 0px;
+    padding: 20px 40px;
+    gap: 24;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+}
+.submit{
+    padding: 17px 34px 17px;
+    margin: 32px 0px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
 
 /* footer-style */
+
+.footer{
+    text-align: center;
+    gap: 32px;
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px 0px;
+    
+}
