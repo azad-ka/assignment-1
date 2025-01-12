@@ -96,16 +96,12 @@ nav {
     font-size: 40px;
     font-weight: 700;
     color: rgb(14, 14, 14);
-    width: 1280px;
-    height: 48px;
 }
 
 .section-description {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
-    width: 1280px;
-    height: 48px;
 }
 
 .technology-title {
@@ -259,12 +255,11 @@ nav {
 .donate {
     margin: 0 80px;
     text-align: center;
-
 }
 
 .donate-money {
     display: flex;
-    margin: 0 80px;
+    margin: 0 300px;
     text-align: center;
 }
 
@@ -309,7 +304,6 @@ nav {
 }
 
 .amount {
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
     margin: 32px 0px;
     padding: 20px 40px;
@@ -335,6 +329,7 @@ nav {
 .footer {
     text-align: center;
     gap: 32px;
+
 }
 
 .footer-title {
